@@ -20,7 +20,7 @@ def initWindow():
     window = Tk()
 
     setWindowSettings(window)
-    lbl = Label(window, text="Fallout 4 saves")
+    lbl = Label(window, text="Fallout 4 msm")
     lbl.grid(column=0, row=0)
     btn = Button(window, text="Start", command=startClicked)
     btn.grid(column=1, row=0)
@@ -36,7 +36,7 @@ def setWindowSettings(window):
     y = (hs/2) - (h/2)
     window.geometry('%dx%d+%d+%d' % (w, h, x, y))
     window.resizable(False, False)
-    window.title("Fallout 4 saves launcher")
+    window.title("Fallout 4 multiple saves management")
 
 def listSaves(fo4SaveDirectories, label, active, startPos):
     global activeSave
