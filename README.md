@@ -25,7 +25,7 @@ The button next to the active directory start F4SE itself.
   - all save directories must be in the same parent directory
   - all save directory names exact the active one must be named like this: 'Saves_[folderName value from version_data.json]'
 
-Usage
+# usage
 - launch via steam: add new external game/program
    - set 'python.exe' as TARGET   (example: "C:/[path to python directory]/python.exe")
    - set 'main.py' as LAUNCH OPTION(S)   (example: "C:/[path to Fallout 4 directory]/main.py")
