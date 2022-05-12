@@ -10,7 +10,7 @@ The button next to the active directory start F4SE itself.
 
 # requirements
  - Fallout 4
- - F4SE
+ - F4SE (should run without F4SE with little changes)
  - python 2 / python 3
 
 # installation
