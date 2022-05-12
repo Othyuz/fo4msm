@@ -1,7 +1,11 @@
 # fo4msm
-Fallout 4 multiple save folders management tool
+Fallout 4 multiple save directories management tool
 
 
+A simple multiple save directories management tool to switch between mulitple save directories when starting Fallout 4. This tool requires F4SE, but should run Fallout 4 directly (without F4SE) with little changes.
+
+On program start a list of all save directories will be listed. For every save directory (except the 'active' directory (that Fallout 4 uses)) an entry is listed and can be made to the active directory via button click.
+The button next to the active directory start F4SE itself.
 
 
 # requirements
